@@ -18,7 +18,10 @@ public class BackEnd {
 		
 	
 	//the constructor
-	public BackEnd(){random = new Random();}
+	public BackEnd(){
+		random = new Random()
+		
+	};
 	
 	//'length' of the password to be generated (it is taken by the user)
 	public String generatePassword(int length, boolean includeUppercase, boolean includeLowercase, 
